@@ -7,7 +7,7 @@ const schoolManager=new SchoolManager()
 
 const route=Router();
 
-route.get('/')
+route.get('/',schoolControllers.homeRoute)
 
 
 
